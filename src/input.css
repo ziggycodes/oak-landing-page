@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root{
+    --primary: #F48555;
+}
+
+.card{
+    @apply w-[28rem] bg-slate-200 rounded-md p-2;
+}
